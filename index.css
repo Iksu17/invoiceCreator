@@ -1,0 +1,181 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: black;
+    color: white;
+}
+
+hr{
+    width: 470px;
+}
+.container{
+    background: #1F2937;
+    width: 550px;
+    
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.header{
+    
+    background: #3A69D2;
+    height: 190px;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    
+    
+}
+.heading-1{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.thanks-header{
+    margin: 20px;
+    line-height: 0;
+    font-size: 16px;
+}
+
+.task-btn{
+    background: #D5D4D8;
+    color: #4A4E74;
+    width: 140px;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid #D5D4D8;
+    margin: 40px 20px;
+    border-radius: 7px;
+    
+}
+
+.task-div{
+    display: flex;
+    
+    
+}
+
+.list-div{
+    
+    display: flex;
+    
+    
+    
+}
+
+.task-text{
+    
+    margin-left: 40px;
+    font-size: 12px;
+    width: 95px;
+    height: 22px;
+    
+}
+
+.total-text {
+    text-align: right;
+    margin-left: 270px;
+    font-size: 12px;
+    width: 78px;
+    height: 22px;
+    
+}
+
+
+span{
+    font-size: 10px; 
+    padding-left: 10px;
+}
+.price-align{
+    text-align: right;
+    margin-left: 260px;
+    list-style-type: none;
+    font-size: 24px;
+    margin-top: 0;
+}
+#task-list{
+    
+    list-style-type: none;
+    font-size: 24px;
+    padding-left: 40px;
+    margin-top: 0;
+}
+
+
+.total-amount{
+    display: flex; 
+    
+}
+
+.notes-align{
+   
+    list-style-type: none;
+    font-size: 12px;
+    padding-left: 5px;
+    margin: 10px 40px 0px ;
+    width: 105px;
+    height: 15px;
+}
+
+.total-align{
+    
+    text-align: right;
+    
+    list-style-type: none;
+    font-size: 12px;
+    margin: 10px 40px 0px 240px;
+    width: 105px;
+    height: 28px;
+}
+
+
+
+.totalAmount-aligh{
+    
+    text-align: right;
+    margin: 10px 40px 10px 240px;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.send-btn-div{
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.sent-btn{
+    width: 470px;
+    height: 44px;
+    background: #3A69D2;
+    border-radius: 7px;
+    border: 1px solid #3A69D2;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.remove-btn{
+    background: #1F2937;
+    color:  white;
+    border: none;
+}
+
+#pin{
+  width: 300px;
+  height: 100px;
+  margin-left: 40px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  border: none;
+  background-color: #1F2937;
+  color: white;
+  font-size: 12px;
+  resize: none;
+}

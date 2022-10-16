@@ -1,0 +1,55 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="header">
+                <h1 class="heading-1">Invoice Creator</h1>
+                <p class="thanks-header">Thanks for choosing GoodCorp, LLC!</p>
+            </div><!--closing header div-->
+            
+            <div class="middle">
+                
+                <div class="buttons">
+                    <button class="task-btn" id="task-btn1">Task 1</button>
+                    <button class="task-btn" id="task-btn2">Task 2</button>
+                    <button class="task-btn" id="task-btn3">Task 3</button>
+                </div> <!--Closing buttons div-->   
+                    
+                <div class="task-div">
+                    <p class="task-text">TASK</p>
+                    <p class="total-text">TOTAL</p>
+                 </div><!--closing task div-->   
+                
+                <div class="list-div">
+                    <ul id="task-list"></ul>
+                </div><!--closing list div-->
+                
+            </div><!-- closing Invoice div-->
+            
+            <hr>
+            <div clas="bottom">
+                <div class="total-amount">
+                  <p class="notes-align">NOTES</p>
+                  <p class="total-align">TOTAL AMOUNT</p>
+                </div><!--closing total-amount div-->
+                <div class="total-amount">
+                  <textarea id="pin" class="anote-align">No notes</textarea>
+                        
+                  <h2 class="totalAmount-aligh" id="total-price">0€</h2>
+                </div>
+                
+                <div class="send-btn-div" id="send-btn">
+                    <button class="sent-btn">Send Invoice</button>
+                </div><!--closing send btn div-->
+            </div>
+        </div><!--closing container div-->
+      
+        <script src="index.js"></script>
+    </body>
+</html>
